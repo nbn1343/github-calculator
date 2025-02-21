@@ -18,6 +18,13 @@ public class Main {
           int b1 = Integer.parseInt(parts[2]);
           System.out.println(calculator.add(a1, b1));
           break;
+
+
+        case "subtract":
+          int a2 = Integer.parseInt(parts[1]);
+          int b2 = Integer.parseInt(parts[2]);
+          System.out.println(calculator.subtract(a2, b2));
+          break;
       }
     }
   }
