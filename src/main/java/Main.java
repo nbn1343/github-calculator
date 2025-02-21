@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     Calculator calculator = new Calculator();
-    Scanner scanner = new Scanner(System.in);
     System.out.println ("welcome to the calculator");
     System.out.println ("Enter a command:");
+    Scanner scanner = new Scanner(System.in);
 
     while (scanner.hasNextLine()) {
       String input = scanner.nextLine();
